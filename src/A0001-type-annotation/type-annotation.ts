@@ -26,9 +26,8 @@ let person: {name: string, age: number, adult?: boolean} = {
 
 
 // Funções
-function soma(x: number, y:number){
+function soma(x: number, y:number): number{
   return x + y;
 }
 
-const result = soma(2,3)
-console.log(result)
+const soma2: (x: number, y: number) => number = (x, y) => x + y
