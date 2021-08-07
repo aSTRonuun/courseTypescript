@@ -1,3 +1,5 @@
+// POO - Associação é quando duas classes podem existir separadamente, sem necessariamente uma depender da outra
+
 export class Escritor {
   // Inversãoo de Dependência onde a classe escritor usar uma classe abstrata que é o contrato
   // É bem melhor, pois, geralmente o contrato (classe abstrata) é bem menos modificada do que é as subclasse da classe abstrata
