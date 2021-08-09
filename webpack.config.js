@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/Tipos-Basicos/A0019-exercicio/exercicio.ts',
+  entry: './src/01-Tipos-Basicos/A0019-exercicio/exercicio.ts',
   module: {
     rules: [
       {
